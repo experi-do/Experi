@@ -3,10 +3,13 @@
 <head>
   <title>Experi</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1><a href="index.html">Experi</a><h1>
+  <h1><a href="index.html">Experi</a></h1>
+  <div id="grid">
   <ol>
     <li><a href="Personal Information.html">Personal Information</a></li>
     <li><a href="My Schedule.html">My Schedule</a></li>
@@ -14,28 +17,31 @@
     <li><a href="My Blog.html">My Blog</a></li>
     <li><a href="My Diary.html">My Diary</a></li>
   </ol>
+  <img src="background.jpg" width=352 height=780>
+  <div id="personal">
   <h2>Personal Information</h2>
-  <p>Let us know about you.</p>
   <h3><P>
     <form action="action_page.php">
   First name:     <input type="text" name="firstname"><br>
-  Last name:     <input type="text" name="lastname"><br><br>
+  Last name:     <input type="text" name="lastname"><br>
   User name:     <input type="text" name="username"><br>
-  User password:     <input type="password" name="psw"><br><br>
-  [Gender]<br>
+  User password:     <input type="password" name="psw"><br>
+  Gender:&nbsp;&nbsp;
   &nbsp;<input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label>&nbsp;&nbsp;
   <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br><br>
-  [Birth Date]<br>
-  <input type="date" name="Birthdate"><br><br>
+  <label for="female">Female</label><br>
+  Birth Date:&nbsp;&nbsp;&nbsp;
+  <input type="date" name="Birthdate"><br>
   Contact:     <input type="tel" name="contact">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  E-mail:     <input type="email" name="email"><br><br>
+  E-mail:     <input type="email" name="email"><br>
   Home:     <input type="text" name="home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  School/Work:     <input type="text" name="school/work"><br><br>
-  <input type="submit">
+  School/Work:     <input type="text" name="school/work"><br>
+  <p><input type="submit"></p>
     </form>
   </p><h3>
+  </div>
+
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -49,5 +55,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+</div>
 </body>
 </html>
