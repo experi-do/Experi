@@ -53,7 +53,7 @@ body {
   text-decoration: none;
 }
 #disqus_thread {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 h3 {
   padding-top: 5px;
