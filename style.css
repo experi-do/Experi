@@ -54,6 +54,7 @@ body {
 }
 #disqus_thread {
     border-right: 5px solid DimGray;
+    padding-left: 50px;
 }
 h3 {
   padding-top: 5px;
@@ -69,3 +70,4 @@ h2 {
   padding-left: 80px;
 }
 </style>
+
